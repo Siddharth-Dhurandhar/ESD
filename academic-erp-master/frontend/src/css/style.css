@@ -1,0 +1,50 @@
+/* General styles */
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  color: #282c34;
+}
+
+main h2 {
+  color: #282c34;
+}
+
+/* Profile card styles */
+.profile-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-item {
+  margin-bottom: 15px;
+}
+
+.profile-item label {
+  font-weight: bold;
+  color: #282c34;
+}
+
+.profile-item p {
+  color: #282c34;
+}
+
+/* Button styles */
+.logout-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

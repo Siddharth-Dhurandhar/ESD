@@ -1,0 +1,80 @@
+/* Detail.js Styling */
+.detail-container {
+    font-family: 'Arial, sans-serif';
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .detail-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .detail-header h1 {
+    color: #282c34;
+  }
+  
+  .detail-link {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .detail-link:hover {
+    text-decoration: underline;
+  }
+  
+  .logout-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  main h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .department-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .department-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+  }
+  
+  .department-card h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .department-card p {
+    color: #555;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .department-card strong {
+    color: #333;
+  }
+  

@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container Styling */
+.container {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #e6e6e6;
+  outline: none;
+  border-color: #04aa6d;
+}
+
+/* Button Styling */
+.registerbtn {
+  width: 100%;
+  padding: 14px;
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.registerbtn:hover {
+  background-color: #028a5e;
+}
+
+/* Link Styling */
+a {
+  color: #028a5e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Sign In Section Styling */
+.signin {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 16px;
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}

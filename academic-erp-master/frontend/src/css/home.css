@@ -1,0 +1,58 @@
+/* Home.js Styling */
+.home-container {
+    font-family: 'Arial, sans-serif';
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .home-header {
+    margin-bottom: 40px;
+  }
+  
+  .home-header h1 {
+    color: #282c34;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .home-subtitle {
+    color: #555;
+    font-size: 18px;
+  }
+  
+  .home-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .home-buttons {
+    margin-top: 20px;
+  }
+  
+  .home-button {
+    margin: 10px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    opacity: 0.8;
+  }
+  
+  .login-button {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .signup-button {
+    background-color: #28A745;
+    color: white;
+  }
+  
